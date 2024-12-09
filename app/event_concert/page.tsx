@@ -120,8 +120,8 @@ export default function PaymentForm() {
           onClick={() => setOperator("orange")}
           className={` ${
             operator === "orange"
-              ? "border-2 scale-105  border-orange-500 animate-pulse"
-              : "border-2 border-gray-300"
+              ? " scale-105  border-orange-500 animate-pulse"
+              : ""
           } w-[150px] h-[150px] rounded-lg`}
         >
           <Image
@@ -137,8 +137,8 @@ export default function PaymentForm() {
           onClick={() => setOperator("mtn")}
           className={` ${
             operator === "mtn"
-              ? "border-2 scale-105 border-yellow-500 animate-pulse"
-              : "border-2 border-gray-300"
+              ? " scale-105 border-yellow-500 animate-pulse"
+              : ""
           } w-[150px] h-[150px] rounded-lg`}
         >
           <Image
